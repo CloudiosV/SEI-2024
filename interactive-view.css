@@ -1,0 +1,23 @@
+/* section-one */
+@media(max-width: 1000px){
+    #section-one > .section-content > .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-one > .section-content > .about-content > .section-image-text {
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+    }
+}
+
+/* section-two */
+@media(max-width: 1000px){
+    #section-two > .section-content > .about-content > .section-team-member {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}

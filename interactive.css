@@ -1,0 +1,92 @@
+/* section-header */
+.content-middle > a:hover{
+    background-color: #efefef;
+    transition: 0.2s;
+}
+
+.content-middle > a:active {
+    background-color: #ffffff;
+    transition: 0.1s;
+}
+
+@media(max-width: 1200px){
+    .content-one {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .content-one > .content-left {
+        align-self: center;
+    }
+
+    .content-one > .content-middle {
+        align-self: center;
+    }
+
+    .content-one > .content-right {
+        align-self: center;
+    }
+}
+
+/* section-one */
+@media(max-width: 1200px){
+    #section-one > .section-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+}
+
+/* section-three */
+@media(max-width: 1200px){
+    #section-three {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    #section-three > .section-content {
+        align-content: center;
+    }
+
+    .video-image-section {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .video-image-section > .video-section {
+        margin-left: 11%;
+    }
+
+    .video-image-section > .image-section {
+        margin-left: 13.5%;
+    }
+}
+
+/* section-four */
+#section-four > .section-content > .about-content > .section-button > button:hover {
+    background-color: #efefef;
+    transition: 0.2s;
+}
+
+#section-four > .section-content > .about-content > .section-button > button:active {
+    background-color: #ffffff;
+    transition: 0.1s;
+}
+
+/* section-five */
+@media(max-width: 1200px){
+    #section-five > .section-content > .about-content > .section-image {
+        flex-wrap: wrap;
+    }
+}
+
+#section-five > .section-content > .about-content > .section-button > button:hover {
+    background-color: #efefef;
+    transition: 0.2s;
+}
+
+#section-five > .section-content > .about-content > .section-button > button:active {
+    background-color: #ffffff;
+    transition: 0.1s;
+}
